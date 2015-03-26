@@ -83,8 +83,8 @@
         return [self formatAsLastMonth];
     
     // < 1 year = "September 15"
-    if([self isLastYear:secondsSince])
-        return [self formatAsLastYear];
+    //if([self isLastYear:secondsSince])
+    //    return [self formatAsLastYear];
     
     // Anything else = "September 9, 2011"
     return [self formatAsOther];
